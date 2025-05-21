@@ -144,7 +144,7 @@ def main():
     state = resume_reviewer_workflow.invoke({"file_path": file_path})
     
     # Save the results to a text file
-    with open("AI_Review.txt", "w") as f:
+    with open("AI_Review_example.txt", "w") as f:
         f.write(f"Resume Review for {file_path}\n")
         f.write(f"Resume Grade: {state['grade']}/10\n")
         f.write(f"Feedback: {state['feedback']}\n")
