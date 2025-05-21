@@ -4,4 +4,12 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "dotenv>=0.9.9",
+    "ipython>=9.2.0",
+    "langchain>=0.3.25",
+    "langchain-community>=0.3.24",
+    "langchain-google-genai>=2.1.4",
+    "langgraph>=0.4.5",
+    "pypdf>=5.5.0",
+]
